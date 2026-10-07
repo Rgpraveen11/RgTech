@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog | TechNova</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            Tech<span>Nova</span>
+        </a>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About</a>
+            </li>
+
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+
+            <li>
+                <a href="blog.html" class="active">Blog</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= PAGE HERO ================= -->
+
+<section class="page-hero">
+
+    <div>
+
+        <p class="small-title">TECHNOVA BLOG</p>
+
+        <h1>Latest Technology Insights</h1>
+
+        <p>
+            Explore articles about web development,
+            JavaScript, APIs and modern technology.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BLOG ================= -->
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <p class="small-title">OUR ARTICLES</p>
+
+        <h2>Latest Posts</h2>
+
+        <p>
+            Learn, explore and stay updated with technology.
+        </p>
+
+    </div>
+
+
+    <div class="blog-grid">
+
+
+        <!-- BLOG 1 -->
+
+        <article class="blog-card">
+
+            <div class="blog-image blog-1">
+                HTML5
+            </div>
+
+            <div class="blog-content">
+
+                <span class="blog-category">
+                    Web Development
+                </span>
+
+                <h3>
+                    Why HTML5 Is Important for Modern Websites
+                </h3>
+
+                <p>
+                    Learn how semantic HTML5 elements help
+                    developers create structured and accessible
+                    websites.
+                </p>
+
+                <a href="#" class="read-more">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- BLOG 2 -->
+
+        <article class="blog-card">
+
+            <div class="blog-image blog-2">
+                CSS3
+            </div>
+
+            <div class="blog-content">
+
+                <span class="blog-category">
+                    Web Design
+                </span>
+
+                <h3>
+                    Creating Responsive Websites with CSS
+                </h3>
+
+                <p>
+                    Understand responsive layouts, Flexbox,
+                    Grid and media queries for different devices.
+                </p>
+
+                <a href="#" class="read-more">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- BLOG 3 -->
+
+        <article class="blog-card">
+
+            <div class="blog-image blog-3">
+                JS
+            </div>
+
+            <div class="blog-content">
+
+                <span class="blog-category">
+                    JavaScript
+                </span>
+
+                <h3>
+                    Getting Started with JavaScript
+                </h3>
+
+                <p>
+                    Explore variables, functions, arrays,
+                    objects and modern JavaScript features.
+                </p>
+
+                <a href="#" class="read-more">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- BLOG 4 -->
+
+        <article class="blog-card">
+
+            <div class="blog-image blog-4">
+                API
+            </div>
+
+            <div class="blog-content">
+
+                <span class="blog-category">
+                    APIs
+                </span>
+
+                <h3>
+                    Understanding REST APIs
+                </h3>
+
+                <p>
+                    Discover how web applications communicate
+                    with external services using APIs.
+                </p>
+
+                <a href="#" class="read-more">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- BLOG 5 -->
+
+        <article class="blog-card">
+
+            <div class="blog-image blog-5">
+                UI/UX
+            </div>
+
+            <div class="blog-content">
+
+                <span class="blog-category">
+                    Design
+                </span>
+
+                <h3>
+                    Principles of Good UI/UX Design
+                </h3>
+
+                <p>
+                    Learn why usability, consistency and
+                    accessibility are important in digital products.
+                </p>
+
+                <a href="#" class="read-more">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- BLOG 6 -->
+
+        <article class="blog-card">
+
+            <div class="blog-image blog-6">
+                Git
+            </div>
+
+            <div class="blog-content">
+
+                <span class="blog-category">
+                    Development
+                </span>
+
+                <h3>
+                    Why Git and GitHub Matter
+                </h3>
+
+                <p>
+                    Understand version control and how GitHub
+                    helps developers manage their projects.
+                </p>
+
+                <a href="#" class="read-more">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <div>
+
+        <p class="small-title">STAY UPDATED</p>
+
+        <h2>Subscribe to Our Newsletter</h2>
+
+        <p>
+            Get useful technology articles and updates.
+        </p>
+
+    </div>
+
+
+    <form class="newsletter-form">
+
+        <input
+            type="email"
+            placeholder="Enter your email"
+            required
+        >
+
+        <button type="submit">
+            Subscribe
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <h2>Want to Build a Website?</h2>
+
+    <p>
+        Let's create a modern digital experience together.
+    </p>
+
+    <a href="contact.html" class="btn btn-light">
+        Contact Us
+    </a>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div>
+
+            <h2 class="footer-logo">
+                Tech<span>Nova</span>
+            </h2>
+
+            <p>
+                Innovative technology solutions for a digital future.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+
+        </div>
+
+
+        <div>
+
+            <h3>Contact</h3>
+
+            <p>📧 info@technova.com</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📍 India</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <p>
+            © 2026 TechNova. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
