@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="scrollProgress"></div>
 
 <!-- ================= NAVBAR ================= -->
 
@@ -67,6 +68,125 @@
             <a href="contact.html" class="btn btn-outline">
                 Contact Us
             </a>
+
+        </div>
+
+    </div>
+    <!-- =========================
+     IMAGE SLIDER
+========================= -->
+
+
+</section>
+<!-- =========================
+     IMAGE SLIDER
+========================= -->
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <p class="small-title">OUR WORK</p>
+
+        <h2>Explore TechNova</h2>
+
+        <p>
+            Discover our technology, development and design solutions.
+        </p>
+
+    </div>
+
+
+    <div class="slider">
+
+        <div class="slides">
+
+            <div class="slide active-slide">
+                <div class="slide-content">
+                    <span>01</span>
+                    <h3 data-tooltip="Modern responsive website development">
+    Web Development
+</h3>
+                    <p>
+                        Modern and responsive websites
+                        built for different devices.
+                    </p>
+                    <button class="btn open-modal">
+    Learn More
+</button>
+<div class="slide-content">
+
+
+</div>
+                </div>
+            </div>
+
+
+            <div class="slide">
+                <div class="slide-content">
+                    <span>02</span>
+                    <h3 data-tooltip="Complete frontend and backend development">
+    Full Stack Development
+</h3>>
+                    <p>
+                        Complete web applications using
+                        modern frontend and backend technologies.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="slide">
+                <div class="slide-content">
+                    <span>03</span>
+                    <h3 data-tooltip="AI-powered applications and automation">
+    AI Solutions
+</h3>
+                    <p>
+                        Intelligent applications powered
+                        by modern AI technologies.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Previous / Next -->
+
+        <button
+            class="slider-btn prev-btn"
+            onclick="changeSlide(-1)"
+        >
+            ❮
+        </button>
+
+        <button
+            class="slider-btn next-btn"
+            onclick="changeSlide(1)"
+        >
+            ❯
+        </button>
+
+
+        <!-- Dots -->
+
+        <div class="slider-dots">
+
+            <button
+                class="slider-dot active-dot"
+                onclick="currentSlide(1)"
+            ></button>
+
+            <button
+                class="slider-dot"
+                onclick="currentSlide(2)"
+            ></button>
+
+            <button
+                class="slider-dot"
+                onclick="currentSlide(3)"
+            ></button>
 
         </div>
 
@@ -159,6 +279,230 @@
 
     </div>
 
+</section>
+<!-- HERO SECTION -->
+<section class="hero">
+    ...
+</section>
+
+
+<!-- IMAGE SLIDER -->
+<section class="section">
+    ...
+</section>
+
+
+<!-- =========================
+     FAQ ACCORDION
+========================= -->
+
+<section class="section faq-section">
+
+    <div class="section-heading">
+
+        <p class="small-title">FAQ</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <p>
+            Find answers to common questions about TechNova.
+        </p>
+
+    </div>
+
+    <div class="accordion">
+
+        <div class="accordion-item">
+
+            <button class="accordion-button">
+                What services does TechNova provide?
+                <span>+</span>
+            </button>
+
+            <div class="accordion-content">
+                <p>
+                    TechNova provides web development,
+                    app development, UI/UX design, cloud
+                    solutions and AI solutions.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- other FAQ items -->
+
+    </div>
+
+</section>
+<!-- =========================
+     TABBED CONTENT
+========================= -->
+
+<section class="section tabs-section">
+
+    <div class="section-heading">
+
+        <p class="small-title">OUR EXPERTISE</p>
+
+        <h2>What We Do</h2>
+
+        <p>
+            Explore our technology and development expertise.
+        </p>
+
+    </div>
+
+
+    <div class="tabs">
+
+        <!-- Tab Buttons -->
+
+        <div class="tab-buttons">
+
+            <button class="tab-button active" data-tab="web">
+                Web Development
+            </button>
+
+            <button class="tab-button" data-tab="fullstack">
+                Full Stack
+            </button>
+
+            <button class="tab-button" data-tab="ai">
+                AI Solutions
+            </button>
+
+        </div>
+
+
+        <!-- Tab 1 -->
+
+        <div id="web" class="tab-content active">
+
+            <h3>Web Development</h3>
+
+            <p>
+                We create modern, responsive and user-friendly
+                websites using HTML, CSS and JavaScript.
+            </p>
+
+            <ul>
+                <li>Responsive Web Design</li>
+                <li>Modern UI Design</li>
+                <li>JavaScript Development</li>
+                <li>Mobile-Friendly Websites</li>
+            </ul>
+
+        </div>
+
+
+        <!-- Tab 2 -->
+
+        <div id="fullstack" class="tab-content">
+
+            <h3>Full Stack Development</h3>
+
+            <p>
+                We develop complete web applications using
+                modern frontend and backend technologies.
+            </p>
+
+            <ul>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+            </ul>
+
+        </div>
+
+
+        <!-- Tab 3 -->
+
+        <div id="ai" class="tab-content">
+
+            <h3>AI Solutions</h3>
+
+            <p>
+                We integrate modern Artificial Intelligence
+                technologies into useful applications.
+            </p>
+
+            <ul>
+                <li>Generative AI</li>
+                <li>AI-powered Applications</li>
+                <li>LLM Integration</li>
+                <li>AI Automation</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     DRAG & DROP
+========================= -->
+
+<section class="section drag-drop-section">
+
+    <div class="section-heading">
+
+        <p class="small-title">INTERACTIVE COMPONENT</p>
+
+        <h2>Drag & Drop</h2>
+
+        <p>
+            Drag the technology cards into the drop area.
+        </p>
+
+    </div>
+
+
+    <div class="drag-container">
+
+        <!-- Draggable Items -->
+
+        <div class="drag-items">
+
+            <div class="drag-item" draggable="true" data-tech="HTML">
+                🌐 HTML
+            </div>
+
+            <div class="drag-item" draggable="true" data-tech="CSS">
+                🎨 CSS
+            </div>
+
+            <div class="drag-item" draggable="true" data-tech="JavaScript">
+                ⚡ JavaScript
+            </div>
+
+            <div class="drag-item" draggable="true" data-tech="React">
+                ⚛️ React
+            </div>
+
+        </div>
+
+
+        <!-- Drop Area -->
+
+        <div id="dropZone" class="drop-zone">
+
+            <span>📥</span>
+
+            <h3>Drop Technologies Here</h3>
+
+            <p>Drag and drop the cards into this area.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- NEXT SECTION -->
+<section class="section">
+    ...
 </section>
 
 
@@ -314,6 +658,36 @@
     </a>
 
 </section>
+<!-- DRAG & DROP -->
+<section class="section drag-drop-section">
+    ...
+</section>
+
+
+<!-- TABBED CONTENT -->
+<section class="section tabs-section">
+    ...
+</section>
+
+
+<!-- FAQ -->
+<section class="section faq-section">
+    ...
+</section>
+
+
+<!-- ANIMATED COUNTERS -->
+<section class="section counter-section">
+
+    <!-- paste your complete counter code here -->
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    ...
+</footer>
 
 
 <!-- ================= FOOTER ================= -->
@@ -369,9 +743,60 @@
     </div>
 
 </footer>
+<button id="backToTop" title="Back to Top">
+    ↑
+</button>
+<!-- =========================
+     PROJECT MODAL
+========================= -->
 
+<div id="projectModal" class="modal">
 
-<script src="js/script.js"></script>
+    <div class="modal-content">
+
+        <button class="close-modal">
+            ×
+        </button>
+
+        <p class="small-title">
+            TECHNOVA PROJECT
+        </p>
+
+        <h2>Our Development Approach</h2>
+
+        <p>
+            We build responsive, user-friendly and modern
+            digital applications using current web technologies.
+        </p>
+
+        <div class="modal-features">
+
+            <div>
+                <strong>01</strong>
+                <span>Responsive Design</span>
+            </div>
+
+            <div>
+                <strong>02</strong>
+                <span>Modern JavaScript</span>
+            </div>
+
+            <div>
+                <strong>03</strong>
+                <span>User-Friendly Interface</span>
+            </div>
+
+        </div>
+
+        <a href="contact.html" class="btn">
+            Start a Project
+        </a>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
